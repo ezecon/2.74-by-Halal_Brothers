@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <title>Admin Login Page</title> 
+
+  <link rel="stylesheet" href="style.css"> 
+
+ </head> 
+
+ <body> 
+
+  <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+
+   <div class="signin"> 
+
+    <div class="content"> 
+
+     <div class="brand">
+        <h3><div class="econ">H</div>alal <div class="econ">B</div>rothers</h3>
+      </div>
+
+     <form id="loginForm" class="form">
+
+      <div class="inputBox"> 
+
+       <input type="text" id="username" required> <i>Username</i> 
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="password"id="password" required> <i>Password</i> 
+
+      </div> 
+
+      
+
+      <div class="inputBox"> 
+
+        <input type="submit" value="Login"> 
+      </div> 
+
+     </form> 
+
+    </div> 
+
+   </div> 
+
+  </section> <!-- partial --> 
+<script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Perform client-side validation (optional)
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if (username === "salman_karim" && password === "salman123") {
+                // Redirect to another page on successful login
+                window.location.href = "file:///C:/Users/H3XU5/Desktop/2.74/Dash/index.html";
+            } else {
+                alert("Invalid username or password. Please try again.");
+            }
+        });
+    </script>
+<!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>H</span>alal <span>B</span>rothers</h1>
+      </div>
+      <h2>Your Home</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/econozzaman.econ"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2023</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+ </body>
+
+</html>

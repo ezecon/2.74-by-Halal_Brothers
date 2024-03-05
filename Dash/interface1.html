@@ -1,0 +1,11 @@
+<!-- interface1.html -->
+<input type="text" id="argumentInput">
+<button onclick="goToInterface2()">Enter</button>
+
+<script>
+  function goToInterface2() {
+    const argumentValue = document.getElementById("argumentInput").value;
+    // Redirect to interface2.html with the argument as a query parameter
+    window.location.href = `interface2.html?argument=${encodeURIComponent(argumentValue)}`;
+  }
+</script>

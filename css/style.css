@@ -1,0 +1,59 @@
+@charset "utf-8"; /****   Developed by http://www.freetimelearning.com/    *****/
+body{ font-family:Arial, Helvetica, sans-serif; margin:0px auto !important;}
+.main{ 
+	width:1200px; margin:0px auto; 
+	-webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3) !important; 
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3) !important;
+}
+.p10_0{ padding:10px 0px;} .p20_0{ padding:20px 0px;}.p30_0{ padding:30px 0px;} 
+.p40_0{ padding:40px 0px;} .p50_0{ padding:50px 0px;}
+.clearfix{ clear:both;}
+
+/***button**/
+.button
+{
+  margin-top: 10px;
+border-color: white;
+border-radius: 25px;
+  padding: 10px;
+  background: crimson;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.35em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.button:hover
+{
+  opacity: 0.6;
+}
+.add-to-order
+{
+padding: 10px;
+  background: #violet;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.35em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.fonttt
+{
+  font-size: 1.35em;
+}
+.ex
+{
+border-color: white;
+border-radius: 25px;
+}
+/*********** Start Content Part 3 *********/
+.content-part-3{ width:100%; float:left; padding:20px 0px;}
+.content-part-3-left{ width:30%; border-radius: 25px; float:left; padding:10px;}
+.content-part-3-right{ width:20%;  float:left; padding:5px 10px 10px; height:20%; line-height:26px; text-align:justify;}
+.content-part-3-right-h4{ font-weight:600; color:#000; padding:0px;}
+.margin_5{ margin:5px 0px; float:left;}
+.margin_p3{ margin:10px 0px 5px;}
+.price{color:#000; padding:5px 0px; font-weight:bold; font-size:15px;}
+.green{ color:#7db549; font-weight:bold; font-size:16px;}
+/*********** End Content Part 3 *********/
+

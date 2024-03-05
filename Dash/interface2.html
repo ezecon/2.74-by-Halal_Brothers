@@ -1,0 +1,24 @@
+<!-- interface2.html -->
+<p>Received Argument: <span id="argumentOutput"></span></p>
+
+<script>
+  // Function to retrieve the argument from the URL
+  function getArgumentFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const argument = urlParams.get("argument");
+    return argument ? decodeURIComponent(argument) : null;
+  }
+
+  // Function to initialize the interface with the received argument
+  function init() {
+    const argument = getArgumentFromURL();
+    if (argument) {
+      document.getElementById("argumentOutput").textContent = argument;
+    } else {
+      document.getElementById("argumentOutput").textContent = "No argument received.";
+    }
+  }
+
+  // Call the init function when the page loads
+  window.onload = init;
+</script>

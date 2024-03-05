@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <title>Login Page</title> 
+
+  <link rel="stylesheet" href="style.css"> 
+
+ </head> 
+
+ <body> 
+
+  <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+
+   <div class="signin"> 
+
+    <div class="content"> 
+
+     <div class="brand">
+        <h1>Log In</h1>
+      </div>
+
+     <form id="loginForm" class="form">
+
+      <div class="inputBox"> 
+
+       <input type="text" id="username"> <i>Username</i> 
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="password"id="password" > <i>Password</i> 
+
+      </div> 
+
+      
+
+      <div class="inputBox"> 
+
+        <input type="submit" value="Login"> 
+      </div> 
+
+
+	<div class="inpu"> 
+
+        <button type="submit" formaction="C:\Users\H3XU5\Desktop\2.74\User-Signup\index.html">Sign Up</button>
+      </div> 
+
+     </form> 
+
+    </div> 
+
+   </div> 
+
+  </section> <!-- partial --> 
+<script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Perform client-side validation (optional)
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+		// user id pass from backend
+		var user=
+		var pass=
+            if (username === user && password === pass) {
+                // Redirect to another page on successful login
+                window.location.href = "google.com";
+            } else {
+                alert("Invalid username or password. Please try again.");
+            }
+        });
+    </script>
+ </body>
+
+</html>
